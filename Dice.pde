@@ -6,7 +6,7 @@ void setup()
 Die one;
 void draw()
 {
-	clear();
+	background(0, 0, 0);
   one = new Die(100,100);
   one.show();
 }
