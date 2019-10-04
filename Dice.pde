@@ -41,42 +41,42 @@ class Die //models one single dice cube
        fill(0, 0, 0);
        switch (number) {
          case 1:
-          circle(x + 25, y + 25, 10);
+          ellipse(x + 25, y + 25, 10, 10);
           one += 1;
           break;
          case 2:
-           circle(x+12.5, y + 12.5, 10);
-           circle(x+37.5, y + 37.5, 10);
+           ellipse(x+12.5, y + 12.5, 10, 10);
+           ellipse(x+37.5, y + 37.5, 10, 10);
            two += 1;
            break;
          case 3:
-           circle(x+12.5, y + 12.5, 10);
-           circle(x+25, y + 25, 10);
-           circle(x+37.5, y + 37.5, 10);
+           ellipse(x+12.5, y + 12.5, 10, 10);
+           ellipse(x+25, y + 25, 10, 10);
+           ellipse(x+37.5, y + 37.5, 10, 10);
            three += 1;
            break;
          case 4:
-           circle(x+12.5, y + 12.5, 10);
-           circle(x+37.5, y + 12.5, 10);
-           circle(x+37.5, y + 37.5, 10);
-           circle(x+12.5, y + 37.5, 10);
+           ellipse(x+12.5, y + 12.5, 10, 10);
+           ellipse(x+37.5, y + 12.5, 10, 10);
+           ellipse(x+37.5, y + 37.5, 10, 10);
+           ellipse(x+12.5, y + 37.5, 10, 10);
            four += 1;
            break;
          case 5:
-           circle(x+12.5, y + 12.5, 10);
-           circle(x+37.5, y + 12.5, 10);
-           circle(x+25, y + 25, 10);
-           circle(x+37.5, y + 37.5, 10);
-           circle(x+12.5, y + 37.5, 10);
+           ellipse(x+12.5, y + 12.5, 10, 10);
+           ellipse(x+37.5, y + 12.5, 10, 10);
+           ellipse(x+25, y + 25, 10, 10);
+           ellipse(x+37.5, y + 37.5, 10, 10);
+           ellipse(x+12.5, y + 37.5, 10, 10);
            five += 1;
            break;
          case 6:
-           circle(x+12.5, y + 12.5, 10);
-           circle(x+37.5, y + 12.5, 10);
-           circle(x+37.5, y + 37.5, 10);
-           circle(x+12.5, y + 25, 10);
-           circle(x+37.5, y + 25, 10);
-           circle(x+12.5, y + 37.5, 10);
+           ellipse(x+12.5, y + 12.5, 10, 10);
+           ellipse(x+37.5, y + 12.5, 10, 10);
+           ellipse(x+37.5, y + 37.5, 10, 10);
+           ellipse(x+12.5, y + 25, 10, 10);
+           ellipse(x+37.5, y + 25, 10, 10);
+           ellipse(x+12.5, y + 37.5, 10, 10);
            six += 1;
            break;
        }
